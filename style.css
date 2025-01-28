@@ -716,15 +716,17 @@ justify-self: center;
   gap: 1rem;
 }
 .footer-card  p{
-font-size: 29.93px;
+font-size: 22.93px;
 font-weight: 400;
-line-height: 35.91px;
+line-height: 29.91px;
 text-align: center;
 color: #2a2a2a;
 
 }
 .footer-card article div{
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .footer-card article div p{
@@ -756,7 +758,7 @@ word-wrap: break-word;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .footer-card img{
-  max-width: 78px;
+  max-width: 40px;
   justify-self: center;
 }
 .footer-bottom-content{
@@ -764,7 +766,7 @@ word-wrap: break-word;
   
   box-shadow: var(--box-shadow);
 
-font-size: 22px;
+  font-size: 18px;
 font-weight: 500;
 line-height: 26.4px;
 text-align: center;
@@ -790,6 +792,16 @@ text-shadow: var(--text-shadow);
 @media screen and (min-width:400px){
   .timeline{
     gap: 2.5rem;
+  }
+}
+@media screen and (min-width:440px) {
+  .footer-card article div{
+    display: grid;
+  
+  }
+  .footer-card img{
+    max-width: 78px;
+    justify-self: center;
   }
 }
 
@@ -1102,7 +1114,13 @@ max-width: 230px;
                     .footer-bottom-content{
                       max-height: fit-content;
                       align-self: center;
+                      font-size: 22px;
                     }
+                    .footer-card  p{
+                      font-size: 29.93px;
+                      line-height: 35.91px;
+                      
+                      }
                       .footer-h h4{
                       font-size: 44px;
                       line-height: 63.58px;

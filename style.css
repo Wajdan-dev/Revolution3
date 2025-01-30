@@ -12,13 +12,13 @@ scroll-behavior: smooth;
 }
 body{
 /* font-family: "Archivo Black", serif; */
-font-family: "Archivo", serif;
+font-family: sans-serif;
 font-size: 12px;
 overflow-x: hidden;
 }
 a{
 text-decoration: none;
-font-family: "Archivo", serif;
+font-family: sans-serif;
 color: black;
 }
 button{
